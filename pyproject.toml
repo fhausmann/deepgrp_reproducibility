@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "deepgrp_reproducibility"
+version = "0.1.0"
+description = "Code to reproduce results from deepgrp paper"
+authors = ["Fabian Hausmann <fabian.hausmann@zmnh.uni-hamburg.de>", "Stefan Kurtz <kurtz@zbh.uni-hamburg.de>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+pandas = "^1.0.1"
+numpy = "^1.18.1"
+Cython = "^0.29.15"
+hyperopt = "^0.2.3"
+toml = "^0.10.0"
+ipykernel = "^5.1.4"
+matplotlib = "^3.1.3"
+seaborn = "^0.10.0"
+deepgrp = {git = "https://github.com/fhausmann/deepgrp.git", tag = "v0.1.0" }
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
