@@ -126,6 +126,15 @@ preprocess_sequence = []
 reference = "855a0c0503920135e633d4fea44ed70f661ac27b"
 type = "git"
 url = "https://github.com/fhausmann/deepgrp.git"
+
+[[package]]
+category = "dev"
+description = "Docutils -- Python Documentation Utilities"
+name = "docutils"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "0.16"
+
 [[package]]
 category = "main"
 description = "Clean single-source support for Python 3 and 2"
@@ -667,6 +676,17 @@ version = "4.0"
 pyasn1 = ">=0.1.3"
 
 [[package]]
+category = "dev"
+description = "Checks syntax of reStructuredText and code blocks nested within it"
+name = "rstcheck"
+optional = false
+python-versions = "*"
+version = "3.3.1"
+
+[package.dependencies]
+docutils = ">=0.7"
+
+[[package]]
 category = "main"
 description = "SciPy: Scientific Library for Python"
 name = "scipy"
@@ -870,7 +890,7 @@ python-versions = "*"
 version = "1.12.0"
 
 [metadata]
-content-hash = "973cdeb8829580275e5716e51dfe93558dd14be38c31a26721f18b74da3ff6f7"
+content-hash = "cf94b82a2f544dd7217a9a2bbb8ab3a89632351844c9f3223880a568587018df"
 python-versions = "^3.6.1"
 
 [metadata.files]
@@ -952,6 +972,10 @@ decorator = [
     {file = "decorator-4.4.2.tar.gz", hash = "sha256:e3a62f0520172440ca0dcc823749319382e377f37f140a0b99ef45fecb84bfe7"},
 ]
 deepgrp = []
+docutils = [
+    {file = "docutils-0.16-py2.py3-none-any.whl", hash = "sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af"},
+    {file = "docutils-0.16.tar.gz", hash = "sha256:c2de3a60e9e7d07be26b7f2b00ca0309c207e06c100f9cc2a94931fc75a478fc"},
+]
 future = [
     {file = "future-0.18.2.tar.gz", hash = "sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"},
 ]
@@ -1339,6 +1363,9 @@ requests-oauthlib = [
 rsa = [
     {file = "rsa-4.0-py2.py3-none-any.whl", hash = "sha256:14ba45700ff1ec9eeb206a2ce76b32814958a98e372006c8fb76ba820211be66"},
     {file = "rsa-4.0.tar.gz", hash = "sha256:1a836406405730121ae9823e19c6e806c62bbad73f890574fff50efa4122c487"},
+]
+rstcheck = [
+    {file = "rstcheck-3.3.1.tar.gz", hash = "sha256:92c4f79256a54270e0402ba16a2f92d0b3c15c8f4410cb9c57127067c215741f"},
 ]
 scipy = [
     {file = "scipy-1.4.1-cp35-cp35m-macosx_10_6_intel.whl", hash = "sha256:c5cac0c0387272ee0e789e94a570ac51deb01c796b37fb2aad1fb13f85e2f97d"},

@@ -18,6 +18,8 @@ seaborn = "^0.10.0"
 deepgrp = {git = "https://github.com/fhausmann/deepgrp.git", tag = "v0.1.0" }
 
 [tool.poetry.dev-dependencies]
+docutils = "^0.16"
+rstcheck = "^3.3.1"
 
 [build-system]
 requires = ["poetry>=0.12"]

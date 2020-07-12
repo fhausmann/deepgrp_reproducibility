@@ -32,10 +32,35 @@ Reproducing
 ===========
 
 All results in the paper are generated with hyperparameter in
-`best_model.toml`__ and can be downloaded as json files from `results`__.
-All trained models can be found at `models`__.
+`best_model.toml`__.
 
 .. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/best_model.toml
+
+These hyperparameter where found using the following search space:
+
++-------------------+-------------------+-----------------------------------------------------------------+
+| Parameter         | Parameter Name    | Distribution                                                    |
++===================+===================+=================================================================+
+| Window size       | vecsize           | q-normal(:math:`\mu` = 200, :math:`\sigma` = 20, :math:`q` = 2) |
++-------------------+-------------------+-----------------------------------------------------------------+
+| Recurrent units   | units             | q-normal(:math:`\mu` = 32, :math:`\sigma` = 5, :math:`q` = 2)   |
++-------------------+-------------------+-----------------------------------------------------------------+
+| Dropout           | dropout           | Uniform(:math:`low` = 0, :math:`high` = 0.4)                    |
++-------------------+-------------------+-----------------------------------------------------------------+
+| RMSprop momentum  | momentum          | Uniform(:math:`low` = 0, :math:`high` = 1.0)                    |
++-------------------+-------------------+-----------------------------------------------------------------+
+| RMSprop decay     | rho               | Uniform(:math:`low` = 0, :math:`high` = 1.0)                    |
++-------------------+-------------------+-----------------------------------------------------------------+
+| Learning rate     | learning_rate     | Lognormal(:math:`\mu` = -7, :math:`\sigma` = 0.5)               |
++-------------------+-------------------+-----------------------------------------------------------------+
+| Repeat probability|repeat_probability | Uniform(:math:`low` = 0, :math:`high` = 0.49)                   |
+| per batch         |                   |                                                                 |
++-------------------+-------------------+-----------------------------------------------------------------+
+
+
+The performance and benchmarking results can be downloaded as json files from `results`__.
+All trained models can be found at `models`__.
+
 .. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/results
 .. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/models
 
