@@ -1,3 +1,4 @@
+SHELL=/bin/bash
 DATADIR=./data
 
 UCSC_GENOME=http://hgdownload.cse.ucsc.edu/goldenPath/GENOMEBUILD/chromosomes
@@ -33,7 +34,7 @@ traindata: $(DATADIR)/$(GENOMEBUILD).bed
 
 testdata: test-hg19 test-hg38 test-mm10
 
-test-hg19: $(DATADIR)/hg19.bed
+test-hg19:
 	$(call get_fasta,hg19,chr1)
 
 test-hg38: $(DATADIR)/hg38.bed
@@ -43,7 +44,7 @@ test-mm10: $(DATADIR)/mm10.bed
 	$(call get_fasta,mm10,chr2)
 
 dna-brnn:
-	git clone https://github.com/lh3/dna-nn
+	-git clone https://github.com/lh3/dna-nn
 	$(MAKE) -C dna-nn
 
 .PHONY: all_hg19 clean
