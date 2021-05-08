@@ -18,6 +18,17 @@ You can install all required packages using `poetry`__ with::
 
 .. __: https://python-poetry.org/
 
+.. note::
+   To fully reproduce the results from the deepgrp paper you need to have
+   a version of `RepeatMasker`__` here`__ with `cross_match`__ and a version of
+   `Repbase`__ which cannot be provided due to licensing restrictions.
+
+   .. __: https://github.com/rmhubley/RepeatMasker
+   .. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/repeatmasker/
+   .. __: http://www.phrap.org/phredphrapconsed.html
+   .. __: https://www.girinst.org/repbase/
+
+
 Getting the data
 ================
 
@@ -77,10 +88,12 @@ and `dna-nn`__ with `Training_dnabrnn.ipynb`__.
 Benchmark
 ---------
 Benchmark can be done with `Benchmark.ipynb`__.
-To run the benchmarks for the complete genome hg19 please set
-``ALL_HG19`` to `true`.
 
 .. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/Benchmark.ipynb
+
+To evaluate the resuts from the benchmark experiments, use `Evaluation.ipynb`__.
+
+.. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/Evaluation.ipynb
 
 Figures
 -------
