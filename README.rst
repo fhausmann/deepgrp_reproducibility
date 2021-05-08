@@ -20,7 +20,7 @@ You can install all required packages using `poetry`__ with::
 
 .. note::
    To fully reproduce the results from the deepgrp paper you need to have
-   a version of `RepeatMasker`__` here`__ with `cross_match`__ and a version of
+   a version of `RepeatMasker`__ `here`__ with `cross_match`__ and a version of
    `Repbase`__ which cannot be provided due to licensing restrictions.
 
    .. __: https://github.com/rmhubley/RepeatMasker
