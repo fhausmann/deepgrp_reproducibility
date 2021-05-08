@@ -1,0 +1,6 @@
+[submodule "dna-nn"]
+	path = dna-nn
+	url = https://github.com/lh3/dna-nn
+[submodule "repeatmasker/RepeatMasker"]
+	path = repeatmasker/RepeatMasker
+	url = https://github.com/rmhubley/RepeatMasker.git

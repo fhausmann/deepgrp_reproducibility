@@ -157,30 +157,19 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*"
 
 [[package]]
 name = "deepgrp"
-version = "0.1.0"
+version = "0.2.1"
 description = "DNA repeat annotations"
 category = "main"
 optional = false
-python-versions = "^3.6.1"
-develop = false
+python-versions = ">=3.6.1,<4.0.0"
 
 [package.dependencies]
-Cython = "^0.29.15"
-hyperopt = "^0.2.3"
-numpy = "^1.18.1"
-pandas = "^1.0.1"
+Cython = ">=0.29.15,<0.30.0"
+hyperopt = ">=0.2.3,<0.3.0"
+numpy = ">=1.18.1,<2.0.0"
+pandas = ">=1.0.1,<2.0.0"
 tensorflow = "2.1.0"
-toml = "^0.10.0"
-
-[package.extras]
-preprocess_sequence = []
-parse_rm = []
-
-[package.source]
-type = "git"
-url = "https://github.com/fhausmann/deepgrp.git"
-reference = "v0.1.0"
-resolved_reference = "855a0c0503920135e633d4fea44ed70f661ac27b"
+toml = ">=0.10.0,<0.11.0"
 
 [[package]]
 name = "defusedxml"
@@ -1100,14 +1089,16 @@ python-versions = ">= 3.5"
 
 [[package]]
 name = "tqdm"
-version = "4.43.0"
+version = "4.60.0"
 description = "Fast, Extensible Progress Meter"
 category = "main"
 optional = false
-python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
 
 [package.extras]
-dev = ["py-make (>=0.1.0)", "twine", "argopt", "pydoc-markdown"]
+dev = ["py-make (>=0.1.0)", "twine", "wheel"]
+notebook = ["ipywidgets (>=6)"]
+telegram = ["requests"]
 
 [[package]]
 name = "traitlets"
@@ -1200,7 +1191,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6.1"
-content-hash = "f8664eb5e441f9c7830a828f5924b7eba6eaaf5e49054cf9ad5d45d8dcbd5d7e"
+content-hash = "a88b1a0676c324eb5f22aee303e64f482aa50536e2fce683007642f94d61d056"
 
 [metadata.files]
 absl-py = [
@@ -1346,7 +1337,10 @@ decorator = [
     {file = "decorator-4.4.2-py2.py3-none-any.whl", hash = "sha256:41fa54c2a0cc4ba648be4fd43cff00aedf5b9465c9bf18d64325bc225f08f760"},
     {file = "decorator-4.4.2.tar.gz", hash = "sha256:e3a62f0520172440ca0dcc823749319382e377f37f140a0b99ef45fecb84bfe7"},
 ]
-deepgrp = []
+deepgrp = [
+    {file = "deepgrp-0.2.1-cp38-cp38-manylinux_2_33_x86_64.whl", hash = "sha256:d6c2c459af70ee7903d6147b0b9c2c1de10c640632b5ed54448bb2bd17a77a14"},
+    {file = "deepgrp-0.2.1.tar.gz", hash = "sha256:a13b5ddbdb165bcf8b3d5acb5955b8a015172062cb74b94584f4387d5c0a711c"},
+]
 defusedxml = [
     {file = "defusedxml-0.6.0-py2.py3-none-any.whl", hash = "sha256:6687150770438374ab581bb7a1b327a847dd9c5749e396102de3fad4e8a3ef93"},
     {file = "defusedxml-0.6.0.tar.gz", hash = "sha256:f684034d135af4c6cbb949b8a4d2ed61634515257a67299e5f940fbaa34377f5"},
@@ -1832,7 +1826,6 @@ pyzmq = [
     {file = "pyzmq-19.0.0.tar.gz", hash = "sha256:5e1f65e576ab07aed83f444e201d86deb01cd27dcf3f37c727bc8729246a60a8"},
 ]
 requests = [
-    {file = "requests-2.23.0-py2.7.egg", hash = "sha256:5d2d0ffbb515f39417009a46c14256291061ac01ba8f875b90cad137de83beb4"},
     {file = "requests-2.23.0-py2.py3-none-any.whl", hash = "sha256:43999036bfa82904b6af1d99e4882b560e5e2c68e5c4b0aa03b655f3d7d73fee"},
     {file = "requests-2.23.0.tar.gz", hash = "sha256:b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"},
 ]
@@ -1929,8 +1922,8 @@ tornado = [
     {file = "tornado-6.0.3.tar.gz", hash = "sha256:c845db36ba616912074c5b1ee897f8e0124df269468f25e4fe21fe72f6edd7a9"},
 ]
 tqdm = [
-    {file = "tqdm-4.43.0-py2.py3-none-any.whl", hash = "sha256:0d8b5afb66e23d80433102e9bd8b5c8b65d34c2a2255b2de58d97bd2ea8170fd"},
-    {file = "tqdm-4.43.0.tar.gz", hash = "sha256:f35fb121bafa030bd94e74fcfd44f3c2830039a2ddef7fc87ef1c2d205237b24"},
+    {file = "tqdm-4.60.0-py2.py3-none-any.whl", hash = "sha256:daec693491c52e9498632dfbe9ccfc4882a557f5fa08982db1b4d3adbe0887c3"},
+    {file = "tqdm-4.60.0.tar.gz", hash = "sha256:ebdebdb95e3477ceea267decfc0784859aa3df3e27e22d23b83e9b272bf157ae"},
 ]
 traitlets = [
     {file = "traitlets-4.3.3-py2.py3-none-any.whl", hash = "sha256:70b4c6a1d9019d7b4f6846832288f86998aa3b9207c6821f3578a6a6a467fe44"},

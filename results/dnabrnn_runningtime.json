@@ -1,0 +1,376 @@
+{
+    "hg19/chr1.fa": {
+        "dnabrnn_model2.knm": {
+            "runtime": 1225.5793664455414
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 1226.31077003479
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 1227.667247056961
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 1227.7288012504578
+        },
+        "dnabrnn_model0.knm": {
+            "runtime": 1232.2333769798279
+        }
+    },
+    "hg19/chr2.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 1197.0204558372498
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 1196.652577161789
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 1197.7314598560333
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 1197.787541627884
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 1198.9518508911133
+        }
+    },
+    "hg19/chr3.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 974.8726899623871
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 976.0010347366333
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 976.8488826751709
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 976.7558693885803
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 975.8082880973816
+        }
+    },
+    "hg19/chr4.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 941.6489746570587
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 941.2689135074615
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 943.8844118118286
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 942.5323402881622
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 942.8562159538269
+        }
+    },
+    "hg19/chr5.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 890.807891368866
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 891.5843727588654
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 890.7404611110687
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 891.6404724121094
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 891.6034419536591
+        }
+    },
+    "hg19/chr6.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 843.7586238384247
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 843.7137975692749
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 843.765638589859
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 843.3216090202332
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 843.0494408607483
+        }
+    },
+    "hg19/chr7.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 784.2477247714996
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 784.2773957252502
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 783.9626235961914
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 784.3575003147125
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 784.3327233791351
+        }
+    },
+    "hg19/chr8.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 721.4530920982361
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 721.2652459144592
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 720.9229142665863
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 722.2460854053497
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 721.781744480133
+        }
+    },
+    "hg19/chr9.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 695.653698682785
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 694.8977127075195
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 694.5497586727142
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 695.0902287960052
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 694.2499251365662
+        }
+    },
+    "hg19/chr10.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 666.7457075119019
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 668.2557418346405
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 668.0970096588135
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 668.1653528213501
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 668.4612278938293
+        }
+    },
+    "hg19/chr11.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 664.4893925189972
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 665.2174303531647
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 665.0499925613403
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 665.7877321243286
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 665.3309421539307
+        }
+    },
+    "hg19/chr12.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 659.7547383308411
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 660.3186790943146
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 660.8346619606018
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 659.648421049118
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 659.2587306499481
+        }
+    },
+    "hg19/chr13.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 566.6168522834778
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 566.8672518730164
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 566.3720529079437
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 566.8867287635803
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 566.6902918815613
+        }
+    },
+    "hg19/chr14.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 528.6779158115387
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 528.2259941101074
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 531.5673351287842
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 528.5785088539124
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 530.496773481369
+        }
+    },
+    "hg19/chr15.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 507.18011713027954
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 507.3033983707428
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 504.7699439525604
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 505.60802149772644
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 504.7123558521271
+        }
+    },
+    "hg19/chr16.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 449.21626257896423
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 444.8881320953369
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 445.0373206138611
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 446.6625061035156
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 445.22947430610657
+        }
+    },
+    "hg19/chr17.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 402.30893182754517
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 400.90382170677185
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 400.4468505382538
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 399.4795708656311
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 400.52451968193054
+        }
+    },
+    "hg19/chr18.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 386.5315799713135
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 385.33419466018677
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 384.51696252822876
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 384.6296420097351
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 384.41901421546936
+        }
+    },
+    "hg19/chr19.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 292.68538761138916
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 292.54911756515503
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 291.9547498226166
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 291.7719256877899
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 292.24016666412354
+        }
+    },
+    "hg19/chr20.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 311.83621525764465
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 311.2701268196106
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 310.896635055542
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 310.40024280548096
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 310.9361526966095
+        }
+    },
+    "hg19/chr21.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 237.98202419281006
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 236.87073636054993
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 237.03248834609985
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 236.66426873207092
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 237.1711049079895
+        }
+    },
+    "hg19/chr22.fa": {
+        "dnabrnn_model0.knm": {
+            "runtime": 254.18090200424194
+        },
+        "dnabrnn_model2.knm": {
+            "runtime": 251.81973934173584
+        },
+        "dnabrnn_model1.knm": {
+            "runtime": 251.94036984443665
+        },
+        "dnabrnn_model3.knm": {
+            "runtime": 252.70847082138062
+        },
+        "dnabrnn_model4.knm": {
+            "runtime": 251.6323926448822
+        }
+    }
+}
