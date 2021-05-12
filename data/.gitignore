@@ -1,0 +1,4 @@
+*.bed
+*.fa
+*.fa.gz
+*.npz

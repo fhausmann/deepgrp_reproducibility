@@ -124,5 +124,4 @@ dmypy.json
 # End of https://www.gitignore.io/api/python,jupyternotebooks
 
 figures/*
-data/*
 *.log
