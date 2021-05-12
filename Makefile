@@ -6,10 +6,18 @@ all: dna-nn/dna-brnn
 	$(MAKE) -C dfam
 	$(MAKE) -C repeatmasker
 
-dna-nn/dna-brnn:
+submodules:
+	git submodule init
+	git submodule update
+
+dna-nn/dna-brnn.c: submodules
+
+repeatmasker/RepeatMasker/RepeatMasker: submodules
+
+dna-nn/dna-brnn: dna-nn/dna-brnn.c
 	$(MAKE) -C dna-nn
 
-.PHONY: clean
+.PHONY: clean submodules
 
 clean:
 	$(RM) -rf ./figures
