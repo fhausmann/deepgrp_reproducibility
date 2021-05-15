@@ -69,7 +69,7 @@ repeats_hg38.tsv: outputs/hg38/chr1.fa.out \
 				outputs/hg38/chr20.fa.out \
 				outputs/hg38/chr21.fa.out \
 				outputs/hg38/chr22.fa.out
-        ./repeatmasker_to_deepgrp.py --outfile repeats_hg38.tsv $^
+	./repeatmasker_to_deepgrp.py --outfile repeats_hg38.tsv $^
 
 repeats_hg19.tsv: outputs/hg19/chr1.fa.out \
 				outputs/hg19/chr2.fa.out \
@@ -94,4 +94,4 @@ repeats_hg19.tsv: outputs/hg19/chr1.fa.out \
 				outputs/hg19/chr20.fa.out \
 				outputs/hg19/chr21.fa.out \
 				outputs/hg19/chr22.fa.out
-        ./repeatmasker_to_deepgrp.py --outfile repeats_hg19.tsv $^
+	./repeatmasker_to_deepgrp.py --outfile repeats_hg19.tsv $^
