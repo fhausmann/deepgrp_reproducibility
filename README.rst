@@ -28,6 +28,14 @@ You can install all required packages using `poetry`__ with::
    .. __: http://www.phrap.org/phredphrapconsed.html
    .. __: https://www.girinst.org/repbase/
 
+To use the packages installed via poetry, you have to activate the poetry 
+environment via::
+
+    poetry shell
+    
+or run your command using::
+
+    poetry run <your command>
 
 Getting the data
 ================
