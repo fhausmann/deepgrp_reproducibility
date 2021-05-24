@@ -9,13 +9,11 @@ define get_repmasker
 	gzip -c -d $(1)/$(1).fa.out.gz | poetry run parse_rm - > $(1).bed
 endef
 
-all: hg19 hg38 mm10/chr2.fa.gz.npz mm10.bed deepgrp_train mm10.chrom.sizes hg19.bed
+all: hg19 hg38 mm10/chr2.fa.gz.npz mm10.bed deepgrp_train mm10.chrom.sizes
 
 mm10.bed:
 	$(call get_repmasker,mm10)
 
-hg19.bed:
-	$(call get_repmasker,hg19)
 %.fa.gz:
 	mkdir -p $(firstword $(subst /, ,$*))
 	curl $(subst GENOMEBUILD,$(firstword $(subst /, ,$*)),$(UCSC_GENOME))/$(lastword $(subst /, ,$*)).fa.gz -C - --output $*.fa.gz

@@ -32,6 +32,10 @@ To use the packages installed via poetry, you have to activate the poetry
 environment via::
 
     poetry shell
+    
+or run your command using::
+
+    poetry run <your command>
 
 Getting the data
 ================
