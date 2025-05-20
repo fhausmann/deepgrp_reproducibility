@@ -2,8 +2,7 @@
 DeepGRP - Reproducibility
 =========================
 
-Repository for reproducing results for `DeepGRP`__ publication
-(currently under review).
+Repository for reproducing results for `DeepGRP`__ publication.
 
 .. __: https://github.com/fhausmann/deepgrp
 
@@ -19,9 +18,9 @@ You can install all required packages using `poetry`__ with::
 .. __: https://python-poetry.org/
 
 .. note::
-   To fully reproduce the results from the deepgrp paper you need to have
+   To fully reproduce the results from the deepgrp paper, you need to have
    a version of `RepeatMasker`__ `here`__ with `cross_match`__ and a version of
-   `Repbase`__ which cannot be provided due to licensing restrictions.
+   `Repbase`__, which cannot be provided due to licensing restrictions.
 
    .. __: https://github.com/rmhubley/RepeatMasker
    .. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/repeatmasker/
@@ -40,7 +39,7 @@ or run your command using::
 Getting the data
 ================
 
-You can download all required training/testing data and required programs with
+You can download all the required training/testing data and programs needed with
 make::
 
     poetry run make
@@ -50,12 +49,12 @@ Warning, this can take a while, depending on your connection.
 Reproducing
 ===========
 
-All results in the paper are generated with hyperparameter in
+All results in the paper are generated with hyperparameters in
 `best_model.toml`__.
 
 .. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/best_model.toml
 
-These hyperparameter where found using the following search space:
+These hyperparameters were found using the following search space:
 
 +-------------------+-------------------+-----------------------------------------------------------------+
 | Parameter         | Parameter Name    | Distribution                                                    |
@@ -77,7 +76,7 @@ These hyperparameter where found using the following search space:
 +-------------------+-------------------+-----------------------------------------------------------------+
 
 
-The performance and benchmarking results can be downloaded as json files from `results`__.
+The performance and benchmarking results can be downloaded as JSON files from `results`__.
 All trained models can be found at `models`__.
 
 .. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/results
@@ -85,7 +84,7 @@ All trained models can be found at `models`__.
 
 Training
 --------
-Training of DeepGRP can be done with the jupyter notebook
+Training of DeepGRP can be done with the Jupyter notebook
 `Training_deepgrp.ipynb`__
 and `dna-nn`__ with `Training_dnabrnn.ipynb`__.
 
@@ -99,7 +98,7 @@ Benchmark can be done with `Benchmark.ipynb`__.
 
 .. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/Benchmark.ipynb
 
-To evaluate the resuts from the benchmark experiments, use `Evaluation.ipynb`__.
+To evaluate the results from the benchmark experiments, use `Evaluation.ipynb`__.
 
 .. __: https://github.com/fhausmann/deepgrp_reproducibility/blob/master/Evaluation.ipynb
 
